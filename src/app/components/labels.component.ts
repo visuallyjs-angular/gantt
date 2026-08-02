@@ -47,7 +47,7 @@ export class GanttLabelsComponent {
   headerSize = signal(0);
   surface = this.$vjs.surface
 
-  zoom = useZoom(this.$vjs.surface)
+  zoom = useZoom()
 
   TYPE_TASK_GROUP = TYPE_TASK_GROUP;
   constructor() {

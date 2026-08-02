@@ -45,7 +45,7 @@ export class GanttHeadersComponent {
     headers = signal<Array<TimelineHeaderEntry>>([]);
     dayRange = signal(0);
 
-    zoom = useZoom(this.$vjs.surface)
+    zoom = useZoom()
 
     STEP_WIDTH = STEP_WIDTH;
 
